@@ -5,8 +5,10 @@ This project converts natural language queries into SQL queries using Google's *
 Here are some screenshots of the application:
 
 ![Screenshot 2025-03-24 175116](https://github.com/user-attachments/assets/e0bd5228-72da-4608-9db5-1890e279a1d0)
+![Screenshot 2025-03-24 175412](https://github.com/user-attachments/assets/9abcf287-0541-4172-b88a-5e765d552a44)
+![Screenshot 2025-03-24 175402](https://github.com/user-attachments/assets/13925f66-0167-4ca5-b199-9c702a19af8c)
+![Screenshot 2025-03-24 175053](https://github.com/user-attachments/assets/592940a6-4f8e-4628-9301-28633c120975)
 
-![UI Screenshot 2](screenshots/ui2.png)
 ## Features
 - Converts text-based queries into SQL queries.
 - Supports multiple file formats (CSV, Excel, JSON) for database creation.
