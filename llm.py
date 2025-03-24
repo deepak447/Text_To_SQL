@@ -10,8 +10,23 @@ google_api_key = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=google_api_key)
 
 def get_response(prompt):
+    """
+    Generates a response from the Gemini 1.5 Pro model based on the given prompt.
+
+    Parameters:
+    prompt (str): The input text prompt for the AI model.
+
+    Returns:
+    response: The generated content from the AI model.
+    """
+
+    # Initialize the generative model with the latest Gemini 1.5 Pro version
     model = genai.GenerativeModel("gemini-1.5-pro-latest")
+
+    # Generate content based on the provided prompt
     response = model.generate_content(prompt)
+
+    # Return the generated response
     return response
 
 
